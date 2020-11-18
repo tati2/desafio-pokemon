@@ -1,0 +1,51 @@
+html,*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color:#2E388D ;
+}
+
+.title{
+  color: #ffa600;
+  text-transform: uppercase;
+  font-size: 35px;
+}
+
+.img-pokebola{
+  width: 75px;
+  height: 75px;
+  margin-right:2rem;
+}
+
+.box-img-title{  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem;  
+}
+
+.box-map{    
+  display: flex;
+  justify-content: center;
+  flex-direction: column;    
+  align-items: center;
+}
+
+.return-box-map{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem;
+  background: #fff;
+  width: 50%;
+  height: 50vh;  
+}
+
+.ImgPokemom{
+  width:150px;
+  height:150px;
+  margin-right: 2rem;  
+}  
